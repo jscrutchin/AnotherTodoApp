@@ -1,7 +1,6 @@
 import Paper from '@material-ui/core/Paper';
 import TextField from '@material-ui/core/TextField';
 import useInputState from './hooks/useInputState';
-import { Button } from '@material-ui/core';
 
 function TodoForm({ addTodo }) {
     const [value, handleChange, reset] = useInputState('');
@@ -17,10 +16,8 @@ function TodoForm({ addTodo }) {
                     onChange={handleChange}
                     margin='normal'
                     label='Add New Todo'
-                    style={{width: '50%'}} />
-                <Button style={{marginLeft: '4rem', marginTop: '2rem'}} variant='contained' color='secondary' size='small' type='submit'>
-                    Add
-                </Button>
+                    fullWidth />
+                
             </form>
         </Paper>
     )
