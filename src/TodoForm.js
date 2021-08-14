@@ -17,7 +17,7 @@ function TodoForm({ addTodo }) {
                     onChange={handleChange}
                     margin='normal'
                     label='Add New Todo'
-                    style={{width: '60%'}} />
+                    style={{width: '50%'}} />
                 <Button style={{marginLeft: '4rem', marginTop: '2rem'}} variant='contained' color='secondary' size='small' type='submit'>
                     Add
                 </Button>
