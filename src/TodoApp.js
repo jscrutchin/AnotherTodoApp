@@ -56,7 +56,7 @@ function TodoApp() {
                 </ToolBar>
             </AppBar>
             <Grid container justifyContent='center' style={{ marginTop: '1rem' }}>
-                <Grid item xs={11} md={8} lg={6}>
+                <Grid item xs={10} md={7} lg={4}>
                     <TodoForm addTodo={addTodo} />
                     <TodoList 
                     todos={todos} 

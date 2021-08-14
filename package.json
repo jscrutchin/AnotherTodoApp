@@ -1,6 +1,6 @@
 {
-  "homepage": "https://jscrutchin.github.io/AnotherTodoApp/",
   "name": "todo-list-hooks",
+  "homepage": "https://jscrutchin.github.io/AnotherTodoApp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
